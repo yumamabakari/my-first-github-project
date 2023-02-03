@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.box{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: myfirstanimation;
+    animation-duration: 4s;
+}
+
+@keyframes myfirstanimation{
+    0%{background-color: white; left: 0px ; top: 0px;}
+    25%{background-color: red; left: 300px; top: 0px;}
+    50%{background-color: yellow; left: 300px; top: 300px;}
+    75%{background-color: green;  left: 0px; top: 300px;}
+    100%{background-color: white; left: 0px; top: 0px; }
+}
+
